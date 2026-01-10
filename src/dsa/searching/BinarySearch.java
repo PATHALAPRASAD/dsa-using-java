@@ -1,13 +1,9 @@
 package dsa.searching;
 
-//import java.util.Arrays;
-//import java.util.stream.Collectors;
-
 public class BinarySearch {
     public static void main(String[] args) {
         int[] array = {2, 3, 5, 7, 11, 13, 17, 19};
         int key = 13;
-//        System.out.println(Arrays.stream(array).map(n->n*n).boxed().collect(Collectors.toList()));
 
         int resultIndex = binarySearch(array, 0, array.length - 1, key);
         System.out.println(resultIndex);
