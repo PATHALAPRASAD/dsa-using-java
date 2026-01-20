@@ -20,8 +20,7 @@ public class BubbleSort {
                 }
             }
 
-            // If no two elements were
-            // swapped by inner loop, then break
+            // If no two elements were swapped by inner loop, then break
             if (!swapped)
                 break;
         }
@@ -29,12 +28,7 @@ public class BubbleSort {
 
     // Function to print an array
     static void printArray(int[] arr){
-//        int i;
-//        for (i = 0; i < arr.length; i++)
-//            System.out.print(arr[i] + " ");
-//        System.out.println();
-
-        for (int n: arr)
+        for (var n: arr)
             System.out.print(n + " ");
         System.out.println();
     }
