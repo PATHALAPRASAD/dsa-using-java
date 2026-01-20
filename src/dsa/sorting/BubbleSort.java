@@ -35,7 +35,7 @@ public class BubbleSort {
 
     // Driver program
     public static void main(String[] args){
-        int[] arr = { 64, 34, 25, 12, 22, 11, 90 };
+        int[] arr = { 64, 34, 25, 12, 22, 11, 90, 42, 3, 58 };
         int n = arr.length;
         System.out.println("Un-Sorted array: ");
         printArray(arr);
