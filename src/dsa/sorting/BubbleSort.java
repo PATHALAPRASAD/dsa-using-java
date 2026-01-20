@@ -4,7 +4,7 @@ package dsa.sorting;
 public class BubbleSort {
 
     // An optimized version of Bubble Sort
-    static void bubbleSort(int[] arr, int n){
+    static void bubbleSort(int[] arr, int n) {
         int i, j, temp;
         boolean swapped;
         for (i = 0; i < n - 1; i++) {
@@ -27,17 +27,17 @@ public class BubbleSort {
     }
 
     // Function to print an array
-    static void printArray(int[] arr){
-        for (var n: arr)
+    static void printArray(int[] arr) {
+        for (var n : arr)
             System.out.print(n + " ");
         System.out.println();
     }
 
     // Driver program
-    public static void main(String[] args){
-        int[] arr = { 64, 34, 25, 12, 22, 11, 90, 42, 3, 58 };
+    public static void main(String[] args) {
+        int[] arr = {64, 34, 25, 12, 22, 11, 90, 42, 3, 58};
         int n = arr.length;
-        System.out.println("Un-Sorted array: ");
+        System.out.println("Original array: ");
         printArray(arr);
         bubbleSort(arr, n);
         System.out.println("Sorted array: ");
